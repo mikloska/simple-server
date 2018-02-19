@@ -1,2 +1,1 @@
-# simple-server
-simple python server
+This is my first simple server based on a Raspberry Pi tutorial.
