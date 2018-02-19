@@ -2,7 +2,9 @@ from flask import Flask, render_template
 
 app=Flask(__name__)
 
-@app.route('/garbage/can')
+@app.route('/yo/<name>')
+def yo(name):
+    return render_template('page.html',name=name)
 def index():
     return render_template('index.html')
 
